@@ -33,6 +33,8 @@ Certain features required for a complete multiplayer game (e.g. authentication, 
 The project may contain inefficient or temporary solutions, as the goal was to create a working proof of concept in a short time.
 
 # Screenshots
+![Screenshot1](https://github.com/tenshi64/UnitySyncAPI/blob/main/screenshots/screenshot1.png)
+![Screenshot2](https://github.com/tenshi64/UnitySyncAPI/blob/main/screenshots/screenshot2.png)
 
 # Technologies Used
 - Unity3D (C#)
