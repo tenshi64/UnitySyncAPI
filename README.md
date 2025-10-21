@@ -1,7 +1,7 @@
 # UnitySyncAPI
 A lightweight prototype of a Unity3D networking system using a PHP API and database for client-side data synchronization.
 
-This project is an **experimental prototype** created over 3–4 days to explore simple networking concepts for multiplayer games.
+This project is an **experimental prototype** created over 3-4 days to explore simple networking concepts for multiplayer games.
 It is **not a production-ready solution**, may contain bugs, and is **not the most optimized approach** to real-time data synchronization.
 
 # Overview
