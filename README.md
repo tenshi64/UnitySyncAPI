@@ -10,6 +10,8 @@ The system consists of three main parts:
     - Includes classes responsible for synchronizing data between clients via the server.
     - Each client sends its own state to the API, and other clients update their data accordingly.
     - The logic is fully client-sided, intended only as a conceptual test.
+    - A lobby system, players can create new lobbies, which are assigned a unique join code.
+    - A lobby browser is available, allowing users to search for and join existing lobbies using their unique codes.
 2. **API** – provides endpoints for managing player data, game sessions, and synchronization.
 3. **Server Manager** – a lightweight background script intended to run on the server.
     - Periodically checks for inactive servers or players who stopped sending heartbeats.
@@ -21,6 +23,9 @@ The system consists of three main parts:
   - Prototype server manager for heartbeat monitoring
   - Unity-side classes for sending and receiving synchronization data
   - PHP + MySQL (MariaDB) backend
+  - Built-in lobby search and join system
+  - Each lobby identified by a unique code
+  - Support for player nicknames, synchronized across clients
 
 # Notes
 This is a prototype – built for testing ideas, not for production use.
