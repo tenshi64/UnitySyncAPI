@@ -13,7 +13,7 @@ The system consists of three main parts:
     - A lobby system, players can create new lobbies, which are assigned a unique join code.
     - A lobby browser is available, allowing users to search for and join existing lobbies using their unique codes.
 2. **API** – provides endpoints for managing player data, game sessions, and synchronization.
-3. **Server Manager** – a lightweight background script intended to run on the server.
+3. **Server Manager** – a background script intended to run on the server.
     - Periodically checks for inactive servers or players who stopped sending heartbeats.
     - Cleans up or resets empty sessions automatically.
 
